@@ -1,0 +1,239 @@
+ 
+
+
+    *{
+        cursor: url('https://i.imgur.com/ywLgtsX.gif'), auto !important;
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    
+    .contenedor{
+        display:grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: 19% 44% 37%;
+        grid-template-rows: 20% 40% 35% 40%;
+        background-color: rgb(23, 32, 32);
+        grid-template-areas: "enca enca enca"
+                             "barra conte conte3"
+                             "barra conte2 conte3"
+                             "barra conte2 conte4";
+    }
+    
+    #one{
+        background-color: rgb(0, 0, 0);        
+        grid-area: enca;
+                
+    }
+
+    #two{
+        background-color: rgb(180, 104, 155);
+        grid-area: barra;
+        background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        font-weight: bold; 
+        text-align: center;
+        border-color: rgb(73, 9, 44);
+        border-style:ridge;
+    }
+
+    #three{
+        background-color: rgb(40, 109, 74);
+        grid-area: conte;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: justify;
+        color: rgb(255, 255, 255); 
+        
+    }
+
+    #three p{
+        margin: calc(10%);
+
+    }
+
+    #four{
+        grid-area: conte2;
+        background-color: rgb(66, 124, 72);
+        font-weight: bold; 
+        text-align: center;
+        color: rgb(208, 255, 0); 
+
+    }
+
+    #five{
+        background-color: rgb(41, 94, 47);        
+        grid-area: conte3;
+        background-position: center; 
+        background-size: cover; 
+        font-weight: bold; 
+        text-align: center;
+        color: rgb(208, 255, 0); 
+    }
+
+    #six{
+        background-color: rgb(26, 85, 33);        
+        grid-area: conte4;
+        
+    }
+
+    .container {
+        height: calc(53%);
+        width: calc(100%);
+        overflow: hidden;
+        font-family: sans-serif;
+
+    }
+    .palette {
+        display: flex;
+        height: 86%;
+        width: 100%;
+    }
+    .color {
+        height: 100%;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: flex 0.1s linear;
+    }
+    .color span {
+        opacity: 0;
+        transition: opacity 0.1s linear;
+    }
+    #stats {
+        height: 14%;
+        width: 100%;
+        background: rgb(73, 9, 44);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1.5em;
+        box-sizing: border-box;
+        color: #bebebe;
+    }
+    .color:nth-child(1) {
+        background-image: url(https://img1.picmix.com/output/stamp/normal/6/5/4/6/2446456_effc7.gif);
+        background-position: center; 
+        background-size: cover; 
+    }
+    .color:nth-child(2) {
+        background-image: url(https://68.media.tumblr.com/ef0e7387c80945f3e510f2e439f77ac1/tumblr_o51gj83g6a1ubn7fro1_1280.gif);
+        background-position: center; 
+        background-size: cover;     
+    }
+    .color:nth-child(3) {
+        background-image: url(https://steamuserimages-a.akamaihd.net/ugc/932676487637584499/C4EB52B240AF0A0C5E128BC6E008AE43B825E62E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+        background-position: center; 
+        background-size: cover;     }
+    .color:nth-child(4) {
+        background-image: url(https://media1.tenor.com/m/2XXM68RhJxgAAAAC/face-yume-nikki.gif);
+        background-position: center; 
+        background-size: cover; 
+    }
+    .color:nth-child(5) {
+        background-image: url(https://mb.srb2.org/attachments/mado-kart-gif.32908/);
+        background-position: center; 
+        background-size: cover; 
+    }
+    .color:hover {
+        flex: 2;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .color:hover span {
+        opacity: 1;
+    }
+
+    
+    #title{
+        margin-left: calc(30%);
+        margin-right: calc(30%);
+        width: calc(21%);
+        clear: both;
+    }
+
+    #gif1{
+        float: left;
+        width: calc(9%);
+    }
+
+    #gif2{
+        float: right;
+        width: calc(9%);
+    }
+
+    #img1{
+        float: left;
+        width: calc(30%);
+        margin: calc(7%);
+    }
+
+    #img1:hover{
+        transform: scale(1.2);
+        background-image: url(https://media.tenor.com/thLFTBYSaaAAAAAM/lsd.gif);
+    }
+
+    #juego{
+        display: block;
+        height: calc();
+        width: calc(100%);
+        background: rgb(73, 9, 44);
+        align-items: center;
+        box-sizing: border-box;
+        color: #bebebe;
+    }
+
+    #caratula{
+        width: calc(100%);
+        display: block;
+    }
+
+    .cajita{
+        display: block;
+        color: white;
+        font-weight:lighter;
+        text-align: left;
+    }
+
+    .cajita span{
+        font-weight: bold;
+        background: #cf617c;
+    }
+    
+    .sub{
+        background: rgb(73, 9, 44);
+        color: white;
+    }
+
+    #videito{
+        width: calc(100%);
+        height: calc(100%);
+    }
+
+    .Foto{
+        display: inline-block;
+        width: calc(130px);
+        height: calc(180px);
+        
+        margin: calc(4%);
+    }
+
+    #foto1{
+        background-image: url(https://ih1.redbubble.net/image.2149014015.4079/mo,small,flatlay,product_square,600x600.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #foto1 :hover{
+        transform: scale(1.2);
+        background-image: url(https://media.tenor.com/OTbe4m14NtIAAAAj/yume-nikki.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
