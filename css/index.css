@@ -124,21 +124,21 @@
         background-size: cover; 
     }
     .color:nth-child(2) {
-        background-image: url(https://68.media.tumblr.com/ef0e7387c80945f3e510f2e439f77ac1/tumblr_o51gj83g6a1ubn7fro1_1280.gif);
+        background-image: url(../img/Estilos/aventura.gif);
         background-position: center; 
         background-size: cover;     
     }
     .color:nth-child(3) {
-        background-image: url(https://steamuserimages-a.akamaihd.net/ugc/932676487637584499/C4EB52B240AF0A0C5E128BC6E008AE43B825E62E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+        background-image: url(../img/Estilos/sueño.gif);
         background-position: center; 
         background-size: cover;     }
     .color:nth-child(4) {
-        background-image: url(https://media1.tenor.com/m/2XXM68RhJxgAAAAC/face-yume-nikki.gif);
+        background-image: url(../img/Estilos/trauma.gif);
         background-position: center; 
         background-size: cover; 
     }
     .color:nth-child(5) {
-        background-image: url(https://mb.srb2.org/attachments/mado-kart-gif.32908/);
+        background-image: url(../img/Estilos/Diversion.gif);
         background-position: center; 
         background-size: cover; 
     }
