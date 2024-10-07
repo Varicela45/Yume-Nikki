@@ -2,7 +2,7 @@
 
 
     *{
-        cursor: url('img/Estilos/cursor.gif'), auto !important;
+        cursor: url('../img/Estilos/cursor.gif'), auto !important;
         box-sizing: border-box;
         margin: 0%;
         padding: 0%;
