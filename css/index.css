@@ -2,7 +2,7 @@
 
 
     *{
-        cursor: url('https://i.imgur.com/ywLgtsX.gif'), auto !important;
+        cursor: url('img/Estilos/cursor.gif'), auto !important;
         box-sizing: border-box;
         margin: 0%;
         padding: 0%;
@@ -39,6 +39,7 @@
         border-color: rgb(73, 9, 44);
         border-style:ridge;
     }
+    
 
     #three{
         background-color: rgb(40, 109, 74);
@@ -118,7 +119,7 @@
         color: #bebebe;
     }
     .color:nth-child(1) {
-        background-image: url(https://img1.picmix.com/output/stamp/normal/6/5/4/6/2446456_effc7.gif);
+        background-image: url(/img/Estilos/miedo.gif);
         background-position: center; 
         background-size: cover; 
     }
