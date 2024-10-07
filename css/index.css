@@ -119,7 +119,7 @@
         color: #bebebe;
     }
     .color:nth-child(1) {
-        background-image: url(Yume-Nikki/img/Estilos/miedo.gif);
+        background-image: url(../img/Estilos/miedo.gif);
         background-position: center; 
         background-size: cover; 
     }
